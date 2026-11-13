@@ -1,0 +1,34 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Builds and exports
+/build/
+/export/
+/dist/
+*.apk
+*.aab
+*.exe
+*.zip
+
+# IDE and local settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Private documentation
+/docs/private/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
