@@ -1,34 +1,22 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
-
-# Builds and exports
+# .Build directories
+bin/
+obj/
+.vs/
 /build/
 /export/
 /dist/
-*.apk
-*.aab
-*.exe
-*.zip
 
-# IDE and local settings
-.vscode/
-.idea/
+# .env files
+*.env
+*.env.local
 
-# Operating system files
-.DS_Store
-Thumbs.db
-Desktop.ini
+# Godot-specific files
+*.import/
+.godot/
 
-# Environment and secrets
-.env
-.env.*
-!.env.example
+# private documentation files
+docs/private/
 
-# Private documentation
-/docs/private/
+# Ignore the following files if you are using Visual Studio Code
+.vscode/settings.json
 
-# Temporary files
-*.tmp
-*.temp
-*.log

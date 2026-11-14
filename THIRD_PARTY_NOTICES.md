@@ -2,11 +2,13 @@
 
 ## This project template uses third-party components that are subject to their own licenses. Please review and comply with the terms of these licenses when using this project and when adding new third-party components to your project
 
-### Code editor recommended for working with this template is [Visual Studio Code](https://code.visualstudio.com/). Licensed under the MIT License, Visual Studio Code is a lightweight and powerful source code editor from Microsoft, with support for debugging, integrated Git version control, syntax highlighting, intelligent code completion, snippets, and more
+### Code editor recommended for working with this template is [Visual Studio Code](https://code.visualstudio.com/)
+
+Visual Studio Code is licensed under the MIT License, see more information at [https://code.visualstudio.com/license](https://code.visualstudio.com/license).
 
 ### Godot Engine's License
 
-Godot Engine is licensed under the MIT License.
+Godot Engine is licensed under the MIT License, see more information at [https://godotengine.org/license](https://godotengine.org/license).
 
 ## VS Code Extensions used in this template
 
@@ -21,6 +23,7 @@ Godot Engine is licensed under the MIT License.
 | Godot Hover Docs | MIT License | Extension that provides documentation and contextual information about the Godot Engine, allowing quick access to references and code examples directly from Visual Studio Code when hovering over elements. |
 | Godot Docs for C# | MIT License | Extension that provides documentation and contextual information about the Godot Engine for C# scripts, allowing quick access to references and code examples directly from Visual Studio Code when hovering over elements. |
 | Godot Tab Formatter | MIT License | Extension that provides support for code formatting for Godot Engine files, allowing to maintain a consistent, readable code style that doesn't generate spacing errors in Godot. |
+| Gut | MIT License | Extension that provides a unit testing framework for Godot projects, allowing you to write and run tests for your scripts and scenes. |
 | GitHub Pull Requests and Issues | MIT License | Official Microsoft extension for integration with GitHub, allowing management of pull requests, issues, and repositories directly from Visual Studio Code. |
 | EditorConfig for VS Code | MIT License | Extension that provides support for EditorConfig, allowing to maintain consistent code styles across different editors and IDEs. |
 | Code Spell Checker | MIT License | Extension that provides spell checking for source code files, helping to identify and correct typing and spelling errors. |
@@ -29,7 +32,6 @@ Godot Engine is licensed under the MIT License.
 | RedHat XML | MIT License | Extension that provides support for XML in Visual Studio Code, including syntax highlighting, validation, and formatting of XML files. |
 | RedHat YAML | MIT License | Extension that provides support for YAML in Visual Studio Code, including syntax highlighting, validation, and formatting of YAML files. |
 | Markdownlint | MIT License | Extension that provides support for linting Markdown files, helping to identify and correct formatting and style issues in Markdown documents. |
-| [Extension Name] | [License] | [Description of the extension] |
 
 ## Addons do Template
 
@@ -37,4 +39,3 @@ Godot Engine is licensed under the MIT License.
 | --- | --- | --- |
 | GodotBan | MIT License | This addon adds a Kanban board to the Godot Editor, allowing you to organize tasks and track the progress of your project. |
 | Gut | MIT License | Godot Unit Test is a unit testing framework for Godot projects. |
-| [Addon name] | [License] | [Description of the addon] |

@@ -12,7 +12,6 @@ config_version=5
 
 config/name="ProjectTemplate"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
-config/icon="res://icon.svg"
 
 [display]
 
@@ -22,7 +21,7 @@ window/stretch/aspect="expand"
 [dotnet]
 
 project/assembly_name="ProjectTemplate"
-
+project/project_name="ProjectTemplate"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godoban/plugin.cfg", "res://addons/gut/plugin.cfg")
@@ -33,6 +32,6 @@ enabled=PackedStringArray("res://addons/godoban/plugin.cfg", "res://addons/gut/p
 
 [rendering]
 
-rendering_device/driver.windows="d3d12"
+rendering_device/driver.windows="opengl3"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
